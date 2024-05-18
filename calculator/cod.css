@@ -1,0 +1,47 @@
+body{
+    display :flex;
+    justify-content:center;
+    align-items:center;
+    background-image: url(./Chrysanthemum.jpg);
+    backdrop-filter: 34px;
+    background-position: var(repeat);
+    background-repeat: repeat-x;
+    background-size: cover;
+}
+.calculator{
+    position: relative;
+    width: 500px;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 5px;
+    top: 150px;
+    padding: 5px;
+    margin: 0 auto;
+    backdop-filter: blur(100px);
+    background: rgba(255,255,255,0.15);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.button{
+    display: grid;
+grid-template-columns:repeat(4,1fr);
+    grid-gap: 2px;
+}
+
+button{
+    padding: 10px;
+    font-size:18px;
+    pointer:cursor;
+     background: rgba(255,255,255,0.15);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    color:white ;
+}
+button:hover{
+    background-color: grey;
+}
+
+#display{
+    height:50px;
+    width: 493px;
+     background: rgba(255,255,255,0.15);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
