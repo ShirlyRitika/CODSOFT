@@ -1,0 +1,82 @@
+#one{
+    background-color: lightsalmon;
+}
+button{
+    background-color: black;
+    color: antiquewhite;
+}
+h1{
+    text-align: center;
+    color:red;
+}
+#pa{
+    text-align: left;
+    font-size: larger;
+    font-style: italic;
+    font-variant: normal;
+    font-stretch: condensed;
+    font-variant-ligatures: additional-ligatures;
+}
+#heading{
+    float: right;
+    display: ruby;
+    nav-right: auto;
+    nav-up: calc(23px);
+    flex-direction: end;
+    row-gap: 50px;
+}
+#img{
+    width: 250px;
+    float: right;
+    padding-top: auto;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    width: 450px;
+}
+#input{
+    border: 1px solid black;
+    width: 180px;
+    box-sizing: content-box;
+}
+#paraimg{
+    float: left;
+    margin-left: 15px;
+    padding-left: 2px;
+    background-color: palegoldenrod;
+}
+
+#hh{
+    text-align: center;
+    justify-content: center;
+    color: blue;
+}
+
+.custom{
+    text-align: center;
+    color: white;
+}
+
+#images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.card{
+    flex: 1;
+}
+
+#two{
+    background-color: palegoldenrod;
+}
+
+#three{
+        background-color:antiquewhite;
+}
+
+#button1{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+}
